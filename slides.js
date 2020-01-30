@@ -29,7 +29,7 @@ function showSlidesI(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-
+//note: if there is a line about the dots here, the automatic advance will not work
 var slideIndex = 0;
 showSlides();
 
