@@ -100,6 +100,8 @@ img {vertical-align: middle;}
 
 /* static slides */
 
+.mySlides1 {display: none;}
+
 .w3-left, .w3-right, .w3-badge {
   cursor:pointer
 }
