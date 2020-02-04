@@ -95,3 +95,15 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
+
+/* static slides */
+
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer
+}
+
+.w3-badge {
+  height:13px;width:13px;padding:0
+}
