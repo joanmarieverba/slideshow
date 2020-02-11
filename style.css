@@ -73,6 +73,10 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.dot-normal {
+   background-color: #bbb;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
