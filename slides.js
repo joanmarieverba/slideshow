@@ -2,7 +2,11 @@
 
 // var slideIndex = 1;
 // showSlides(slideIndex);
+
+//note: this must be global for the color of the dots to change
 var dots = document.getElementsByClassName("dot");
+
+//arrows and dot click functions section
 
 // Next/previous controls
 function plusSlides(n) {
@@ -30,7 +34,8 @@ function showSlidesI(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-//note: if there is a line about the dots here, the automatic advance will not work
+//automatic advance section
+
 var slideIndex = 0;
 showSlides();
 
