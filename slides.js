@@ -83,3 +83,17 @@ function showDivs(n) {
     x[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " w3-white";
 }
+
+
+
+// popup code
+
+function onMouseOut(event) {
+    // Remove this event listener
+    document.removeEventListener("mouseout", onMouseOut);
+
+    // Show the popup
+    document.getElementById("popup").style.display = "block";
+}
+
+document.addEventListener("mouseout", onMouseOut);
