@@ -125,6 +125,14 @@ img {vertical-align: middle;}
 /* another carousel */
 
 
+
+.gallery {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
 /* popup on leaving */
 
 
@@ -157,10 +165,3 @@ img {vertical-align: middle;}
   margin-bottom: 15px;
 }
 
-
-.gallery {
-  overflow: scroll;
-  height: 100vh;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-}
